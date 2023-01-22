@@ -1,0 +1,2 @@
+#include <stdio.h>
+int a=1;int b=1;int c=1;int main(){int a=1;int b=1;int c=1;if((((int)a)<((int)3))){b=5;else{if((((int)a)>((int)3))){a=5;else{c=a;}}printf("%d", a);printf("\n");printf("%d", b);printf("\n");printf("%d", c);printf("\n");}

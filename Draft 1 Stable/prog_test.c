@@ -1,0 +1,2 @@
+#include<stdio.h>
+void inc();int a;int b;void inc(){if((((int)b)<((int)a))){b=(((int)b)+((int)1));}else{-1;}}int main(){a=2;b=(((int)0)-((int)9));while((((int)b)<((int)a))){inc();}printf("%d", b);printf("\n");}
