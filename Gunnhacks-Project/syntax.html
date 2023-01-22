@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<!--HEAD-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!-- Navigation -->
+
+<nav class="main_navbar">
+
+  <form action="index.html">
+    <button type="submit" class="button" id="button1">HOME</button>
+  </form>
+
+  <form action="about.html">
+    <button type="submit" class="button" id="button2">ABOUT</button>
+  </form>
+
+  <form action="syntax.html">
+    <button type="submit" class="button" id="button3">SYNTAX</button>
+  </form>
+</nav>
+
+
+<!--BODY-->
+
+<body>
+
+  <div class="box">
+    <h1 class="banner">Syntax</h1>
+
+    <nav>
+      <a href="#defining_variables" class="page_link">Defining Variables</a>
+      <a href="#comments" class="page_link">Comments</a>
+      <a href="#if_then" class="page_link">If-Then</a>
+      <a href="#procedures" class="page_link">Procedures</a>
+      <a href="#while_loops" class="page_link">While Loops</a>
+    </nav><br><br>
+
+  </div>
+
+  <!-- Variables -->
+
+  <div class="box" id="defining_variables">
+
+    <h2>Defining Variables</h2>
+
+    <h3>Format</h3>
+    <p>
+      <code>
+        value->name
+      </code>
+    </p>
+
+    <h3>Example</h3>
+    <p>
+      <code>
+        3->x
+      </code>
+    </p>
+
+  </div>
+
+  <!-- Comments -->
+
+  <div class="box" id="comments">
+
+    <h2>Comments</h2>
+
+    <h3>Format & Example</h3>
+    <p>
+      <code>
+        ; comment here
+      </code>
+    </p>
+
+  </div>
+
+  <!-- If-Then -->
+
+  <div class="box" id="if_then">
+
+    <h2>If-Then</h2>
+
+    <h3>Format</h3>
+    <p>
+      <code>
+        {<br>
+          &emsp;cond: then,<br>
+          &emsp;&emsp;…<br>
+          &emsp;else<br>
+        }
+      </code>
+    </p>
+
+    <h3>Example</h3>
+    <p>
+      <code>
+        4 -> x<br>
+        {<br>
+        &emsp;&emsp;x < 5: out(7)<br>
+        &emsp;&emsp;out(9)<br>
+        } <br>
+        ; prints out 7<br>
+      </code>
+    </p>
+
+  </div>
+
+  <!--Procedures-->
+  <div class="box" id="procedures">
+
+    <h2>Procedures</h2>
+
+    <h3>Format</h3>
+    <p>
+      <code>
+        procedure_name = (y = x + y + z)
+       </code>
+    </p>
+
+  </div>
+
+  <!--While Loops-->
+  <div class="box" id="while_loops">
+
+    <h2>While Loops</h2>
+
+    <h3>Format</h3>
+    <p>
+      <code>
+        [condition] (while true…)
+      </code>
+    </p>
+
+    <h3>Example</h3>
+    <p>
+      <code>
+        1 -> x<br>
+        [x < 3] (<br>
+	      &emsp;1 + x > x<br>
+        )<br>
+        out(x) ; prints 3<br>
+
+      </code>
+    </p>
+
+  </div>
+
+  <footer>
+    <p>
+      <br><br>
+      Universal Programming Language
+      <br><br>
+    </p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
