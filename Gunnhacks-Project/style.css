@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Sofia+Sans:wght@500&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ebedef;
+}
+
+.header_picture {
+  width: 80%;
+}
+
+.banner {
+  background: linear-gradient(to bottom left, #4015a2 0%, #11aca1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner, .desc {
+  text-align: center;
+}
+
+.box {
+  padding: 1vw;
+  border: 2px solid #a0cac7;
+  border-radius: 2vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+.button {
+  font-size: 16px;
+  padding: 2.5vh;
+  /* background-color: #FAE5D3; */
+  background-color: #ebedef;
+  border: 1px solid #e0e0e0;
+  border-radius: 3.5vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  display: inline;
+  font-family: 'Sofia Sans', monospace;
+  transition-timing-function: ease-in-out;
+}
+
+.button:hover {
+  background-color: #a0cac7; /* Green */
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+code {
+  font-family: 'Inconsolata', monospace;
+}
+
+footer {
+  /*background-image: linear-gradient(to bottom, #ebedef, #dae0ea, #cbd3e5, #c1c4df, #bab5d7, #b1a8d3, #a89cce, #a08fc9, #8c84c9, #737ac9, #5271c9, #0869c9);*/
+background: linear-gradient(to bottom, #ebedef 0%, #c8afda 100%);
+    text-align: center;
+        vertical-align: middle;
+}
+
+h1, h2, h3, div, a, p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+
+.header, #header1{
+  padding: 60px;
+  text-align: center;
+
+  color: white;
+  font-size: 30px;
+}
+p {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.page_link {
+  margin-left: 1vw;
+  margin-right: 1vh;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main_navbar {
+    background: linear-gradient(to bottom, #a0cac7 0%, #ebedef 100%);
+}
