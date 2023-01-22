@@ -1,5 +1,5 @@
 ## About:
-To run, compile lex.yy.c with ‘-ll’ for MacOS and ‘-lfl’ for Windows
+To run, compile lex.yy.c with ‘-ll’ for MacOS and ‘-lfl’ for Windows.
 Then run the resulting executable on the file with UPL code inside.
 ### This website shows how UPL works.
 https://gunnhacks-project.sophierong.repl.co/
